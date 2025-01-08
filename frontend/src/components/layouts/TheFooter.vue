@@ -5,7 +5,7 @@
       <a href="#" class="font-bold hover:text-indigo-600">FAQ</a>
       <a href="#" class="font-bold hover:text-indigo-600">Support</a>
     </div>
-    <div>&copy; {{ new Date().getFullYear() }} LKPUI</div>
+    <div>&copy; {{ new Date().getFullYear() }} LKPUI. Allrights reserved. Design and developed by <a href="http://www.lkprofessionals.com" target="_blank">LKProfessionals</a></div>
   </footer>
 </template>
 

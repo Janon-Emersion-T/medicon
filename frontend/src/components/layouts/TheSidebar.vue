@@ -1,36 +1,48 @@
 <template>
   <aside class="hidden w-64 bg-gray-800 sm:block">
     <div class="py-3 text-2xl uppercase text-center tracking-widest bg-gray-900 border-b-2 border-gray-800 mb-8">
-      <router-link to="/" class="text-white">LKPUI</router-link>
+      <router-link to="/" class="text-white">MCNIQBUK</router-link>
     </div>
 
     <nav class="text-sm text-gray-300">
       <ul class="flex flex-col">
         <li class="px-4 py-2 text-xs uppercase tracking-wider text-gray-500 font-bold">Section</li>
 
-        <router-link v-slot="{ isExactActive, href, navigate }" to="/" custom>
+        <router-link v-slot="{ isExactActive, href, navigate }" to="/dashboard" custom>
           <li class="px-4 cursor-pointer" :class="[isExactActive ? 'bg-gray-500 text-gray-800' : 'hover:bg-gray-700']">
             <a class="py-3 flex items-center" :href="href" @click="navigate">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5 mr-2"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
-                />
-              </svg>
               Dashboard
             </a>
           </li>
-        </router-link>
+        </router-link><br>
+        
+        <li class="px-4 py-2 mt-2 text-xs uppercase tracking-wider text-gray-500 font-bold">Student Manager</li>
 
-        <li>
+
+        <li class="px-4 cursor-pointer hover:bg-gray-700">
+          <router-link :to="{ name: 'students' }" class="py-2 flex items-center">
+            Students
+          </router-link>
+        </li> 
+        <li class="px-4 cursor-pointer hover:bg-gray-700">
+          <router-link :to="{ name: 'certificates' }" class="py-2 flex items-center">
+            Certificates
+          </router-link>
+        </li>
+
+        <li class="px-4 py-2 mt-2 text-xs uppercase tracking-wider text-gray-500 font-bold">Finance Manager</li>
+        <li class="px-4 cursor-pointer hover:bg-gray-700">
+          <router-link :to="{ name: 'login' }" class="py-2 flex items-center">
+            
+          </router-link>
+        </li> 
+        <li class="px-4 cursor-pointer hover:bg-gray-700">
+          <router-link :to="{ name: 'login' }" class="py-2 flex items-center">
+            
+          </router-link>
+        </li>
+
+        <!-- <li>
           <Disclosure v-slot="{ open }" :default-open="isUserManagementActive">
             <DisclosureButton
               class="px-4 py-3 flex items-center w-full hover:bg-gray-700"
@@ -145,9 +157,9 @@
               </ul>
             </DisclosurePanel>
           </Disclosure>
-        </li>
+        </li> -->
 
-        <li class="px-4 hover:bg-gray-700">
+        <!-- <li class="px-4 hover:bg-gray-700">
           <a href="#" class="py-3 flex items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -214,9 +226,9 @@
             </svg>
             Calendar
           </a>
-        </li>
+        </li> -->
 
-        <li class="px-4 py-2 mt-2 text-xs uppercase tracking-wider text-gray-500 font-bold">UI Elements</li>
+        <!--<li class="px-4 py-2 mt-2 text-xs uppercase tracking-wider text-gray-500 font-bold">UI Elements</li>
 
         <li class="px-4 cursor-pointer hover:bg-gray-700">
           <router-link :to="{ name: 'card' }" class="py-2 flex items-center">
@@ -240,8 +252,8 @@
             </svg>
             Card
           </router-link>
-        </li>
-        <li class="px-4 py-2 mt-2 text-xs uppercase tracking-wider text-gray-500 font-bold">Pages</li>
+        </li> -->
+        <!-- <li class="px-4 py-2 mt-2 text-xs uppercase tracking-wider text-gray-500 font-bold">Pages</li>
 
         <li class="px-4 cursor-pointer hover:bg-gray-700">
           <router-link :to="{ name: 'login' }" class="py-2 flex items-center">
@@ -261,7 +273,7 @@
             </svg>
             Login
           </router-link>
-        </li>
+        </li> -->
       </ul>
     </nav>
   </aside>
