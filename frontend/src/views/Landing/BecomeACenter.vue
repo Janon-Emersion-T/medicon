@@ -2,13 +2,15 @@
   <Header />
   <main class="min-h-screen pt-32">
     <!-- Hero Section -->
-    <section class="relative bg-blue-600 text-white py-20">
+    <section class="relative bg-blue-900 text-white py-20 text-center">
       <div class="container mx-auto px-4">
         <h1 class="text-4xl md:text-5xl font-bold mb-6">Become an Accredited Assessment Center</h1>
         <p class="text-xl md:text-2xl mb-8">Join our network of prestigious educational centers and help shape the future of professional qualifications</p>
-        <button class="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition">
+        <a href="http://mcniqbuk.co.uk/contact">
+          <button class="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition">
           Apply Now
-        </button>
+          </button>
+        </a>
       </div>
     </section>
 
@@ -43,7 +45,7 @@
     </section>
 
     <!-- Process Section -->
-    <section class="py-16">
+    <section class="py-16 bg-gray-200">
       <div class="container mx-auto px-4">
         <h2 class="text-3xl font-bold text-center mb-12">Application Process</h2>
         <div class="max-w-3xl mx-auto">
@@ -52,7 +54,7 @@
               <div class="bg-gray-50 p-6 rounded-lg">
                 <span class="text-blue-600 font-bold text-xl mb-2 block">Step 1</span>
                 <h3 class="text-lg font-semibold mb-3">Initial Application</h3>
-                <p>Complete our online application form with your institution's details.</p>
+                <p>Use our contact form or send us and email with your institution's details.</p>
               </div>
               <div class="bg-gray-50 p-6 rounded-lg">
                 <span class="text-blue-600 font-bold text-xl mb-2 block">Step 2</span>

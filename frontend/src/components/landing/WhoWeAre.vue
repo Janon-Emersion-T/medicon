@@ -1,10 +1,10 @@
 <template>
-    <section class="relative  pb-12 lg:pb-20">
+    <section class="relative  pb-12 lg:pb-20 pt-12">
       <div class="container mx-auto px-4">
         <div class="grid lg:grid-cols-2 gap-8 items-center">
           <!-- Text Content -->
           <div class="space-y-6">
-            <span class="text-red-500 font-medium uppercase tracking-wider">WHO WE ARE</span>
+            <span class="text-red-500 font-bold uppercase tracking-wider">WHO WE ARE</span>
             <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
               Knowledge will bring you the opportunity to make a difference.
             </h2>

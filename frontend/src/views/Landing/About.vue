@@ -2,15 +2,15 @@
   <div class="bg-gray-100 text-gray-900">
     <Header />
 
-    <section class="relative mt-32">
+    <section class="relative bg-blue-900 mt-32">
       <div class="h-72 bg-cover bg-center" style="background-image: url('@/assets/about-banner.jpg');">
         <div class="flex items-center justify-center h-full bg-black bg-opacity-50">
-          <h1 class="text-white text-4xl md:text-6xl font-bold">About MCNIQBUK</h1>
+          <h1 class="text-white text-4xl md:text-6xl font-bold">About Us</h1>
         </div>
       </div>
     </section>
 
-    <section class="py-12 px-4 md:px-12 lg:px-24">
+    <section class="py-12 px-4 md:px-12 lg:px-24 bg-gray-200">
       <div class="max-w-4xl mx-auto text-center">
         <h2 class="text-2xl md:text-3xl font-semibold mb-6">Who We Are</h2>
         <p class="text-lg leading-relaxed text-gray-700">

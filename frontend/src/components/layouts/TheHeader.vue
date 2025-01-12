@@ -1,3 +1,4 @@
+// HeaderComponent.vue
 <template>
   <header class="flex justify-between bg-white border-b-2 px-4 sm:justify-end sm:px-6">
     <button class="sm:hidden">
@@ -52,22 +53,25 @@
           "
         >
           <div>
-            <MenuItem v-slot="{ active }">
+            <!-- <MenuItem v-slot="{ active }">
               <a href="#" :class="[active ? 'bg-gray-200' : '', 'block px-4 py-2 text-sm text-gray-700']"
                 >Your Profile</a
               >
-            </MenuItem>
-            <MenuItem v-slot="{ active }">
+            </MenuItem> -->
+            <!-- <MenuItem v-slot="{ active }">
               <a href="#" :class="[active ? 'bg-gray-200' : '', 'block px-4 py-2 text-sm text-gray-700']">Settings</a>
-            </MenuItem>
+            </MenuItem> -->
           </div>
           <MenuItem v-slot="{ active }">
-            <router-link
+            <button
               @click="handleLogout"
-              :to="{ name: 'login' }"
-              :class="[active ? 'bg-gray-200' : '', 'block px-4 py-2 text-sm text-gray-700']"
-              >Sign out</router-link
+              :class="[
+                active ? 'bg-gray-200' : '',
+                'block w-full text-left px-4 py-2 text-sm text-gray-700'
+              ]"
             >
+              Sign out
+            </button>
           </MenuItem>
         </MenuItems>
       </transition>
@@ -75,17 +79,13 @@
   </header>
 </template>
 
-<script>
-import LogoutButton from '@/components/layouts/LogoutButton.vue'
+<script setup>
 import { Menu, MenuButton, MenuItems, MenuItem } from '@headlessui/vue'
+import { useAuth } from '@/store/useAuth'
 
-export default {
-  components: {
-    Menu,
-    MenuButton,
-    MenuItems,
-    MenuItem,
-    LogoutButton,
-  },
+const { logout } = useAuth()
+
+const handleLogout = async () => {
+  await logout()
 }
 </script>

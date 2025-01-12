@@ -1,9 +1,9 @@
 <template>
-  <div class="min-h-screen bg-gray-50">
+  <div class="min-h-screen bg-gray-50 mt-12">
     <Header />
     
     <!-- Hero Section -->
-    <div class="bg-blue-600 text-white pb-20 pt-40">
+    <div class="bg-blue-900 text-white pb-20 pt-40">
       <div class="container mx-auto px-4">
         <h1 class="text-4xl md:text-5xl font-bold mb-4 text-center">Learner Support Services</h1>
         <p class="text-xl text-center max-w-3xl mx-auto">Dedicated to helping you achieve your educational goals with comprehensive support throughout your learning journey.</p>
@@ -70,7 +70,7 @@
       </div>
 
       <!-- How to Access Support -->
-      <section class="mb-16">
+      <!-- <section class="mb-16">
         <h2 class="text-3xl font-bold mb-8 text-center">How to Access Support</h2>
         <div class="bg-white rounded-lg shadow-md p-8">
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -104,10 +104,10 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- Contact Section -->
-      <section class="bg-gray-100 rounded-lg p-8">
+      <!-- <section class="bg-gray-100 rounded-lg p-8">
         <h2 class="text-3xl font-bold mb-8 text-center">Contact Support Team</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
@@ -153,7 +153,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
     </div>
 
     <Footer />

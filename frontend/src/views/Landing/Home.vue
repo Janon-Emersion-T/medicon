@@ -1,11 +1,11 @@
 <template>
   <Header />
   <div class="min-h-screen bg-white">
-    <Hero />
+    <Hero /><br>
     <WhoWeAre />
 
     <!-- Core Values Section -->
-    <section class="max-w-7xl mx-auto py-8 sm:py-12 md:py-16 px-4 sm:px-6 lg:px-8">
+    <!-- <section class="max-w-7xl mx-auto py-8 sm:py-12 md:py-16 px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6">
         <div class="bg-white p-4 sm:p-6 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
           <div class="flex flex-col sm:flex-row items-start sm:items-center mb-4">
@@ -18,10 +18,10 @@
           </div>
           <p class="text-gray-600 leading-relaxed text-sm sm:text-base">We are dedicated to delivering academic excellence that excels and advances to meet the highest standards of quality and relevance.</p>
         </div>
-
-        <!-- Similar updates for other core value cards -->
       </div>
-    </section>
+    </section> -->
+
+    
 
     <!-- Study Sections -->
     <section class="flex flex-col md:grid md:grid-cols-2 gap-0">
@@ -57,6 +57,19 @@
           <p class="text-gray-600 mb-4 sm:mb-6 text-sm sm:text-base">Your Future Starts Here! Explore, Learn, and Achieve with MCNIQBUK. Enriching Minds, Shaping Futures.</p>
           <button class="text-blue-600 hover:text-blue-800 transition-colors duration-300 text-xl sm:text-2xl">→</button>
         </div>
+
+        <div class="bg-white p-6 sm:p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+          <h3 class="text-lg sm:text-xl md:text-2xl font-bold mb-3 sm:mb-4">Higher National Diploma Programs
+          </h3>
+          <p class="text-gray-600 mb-4 sm:mb-6 text-sm sm:text-base">Your Future Starts Here! Explore, Learn, and Achieve with MCNIQBUK. Enriching Minds, Shaping Futures.</p>
+          <button class="text-blue-600 hover:text-blue-800 transition-colors duration-300 text-xl sm:text-2xl">→</button>
+        </div>
+
+        <div class="bg-white p-6 sm:p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+          <h3 class="text-lg sm:text-xl md:text-2xl font-bold mb-3 sm:mb-4">Diploma Programs</h3>
+          <p class="text-gray-600 mb-4 sm:mb-6 text-sm sm:text-base">Your Future Starts Here! Explore, Learn, and Achieve with MCNIQBUK. Enriching Minds, Shaping Futures.</p>
+          <button class="text-blue-600 hover:text-blue-800 transition-colors duration-300 text-xl sm:text-2xl">→</button>
+        </div>
         
         <!-- Similar updates for other program cards -->
       </div>
@@ -76,8 +89,51 @@
           <h3 class="text-lg sm:text-xl font-bold mb-2 sm:mb-3">Academic Excellence</h3>
           <p class="text-gray-600 leading-relaxed text-sm sm:text-base">Elevate your educational experience with MCNIQBUK's commitment to academic excellence. Our programs are crafted to meet the highest standards, ensuring a rigorous and intellectually stimulating learning environment.</p>
         </div>
-
-        <!-- Similar updates for other "Why Choose" items -->
+        <div class="text-center p-4 sm:p-6 hover:bg-gray-50 rounded-lg transition-colors duration-300">
+          <div class="bg-blue-600 w-12 h-12 sm:w-16 sm:h-16 rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4 transform hover:scale-110 transition-transform duration-300">
+            <svg class="h-6 w-6 sm:h-8 sm:w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+            </svg>
+          </div>
+          <h3 class="text-lg sm:text-xl font-bold mb-2 sm:mb-3">Global Recognition</h3>
+          <p class="text-gray-600 leading-relaxed text-sm sm:text-base">Choose MCNIQBUK for globally recognized qualifications. Our degrees open doors internationally, providing you with a passport to opportunities worldwide. Join a community that values a global perspective and equips you for a dynamic, interconnected future.</p>
+        </div>
+        <div class="text-center p-4 sm:p-6 hover:bg-gray-50 rounded-lg transition-colors duration-300">
+          <div class="bg-blue-600 w-12 h-12 sm:w-16 sm:h-16 rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4 transform hover:scale-110 transition-transform duration-300">
+            <svg class="h-6 w-6 sm:h-8 sm:w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+            </svg>
+          </div>
+          <h3 class="text-lg sm:text-xl font-bold mb-2 sm:mb-3">Learning Environment</h3>
+          <p class="text-gray-600 leading-relaxed text-sm sm:text-base">Embrace innovation in education at MCNIQBUK. Our forward-thinking approach incorporates cutting-edge teaching methodologies and technology, fostering an engaging and dynamic learning environment. Be part of a community that values creativity and adaptability.</p>
+        </div>
+        <div class="text-center p-4 sm:p-6 hover:bg-gray-50 rounded-lg transition-colors duration-300">
+          <div class="bg-blue-600 w-12 h-12 sm:w-16 sm:h-16 rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4 transform hover:scale-110 transition-transform duration-300">
+            <svg class="h-6 w-6 sm:h-8 sm:w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+            </svg>
+          </div>
+          <h3 class="text-lg sm:text-xl font-bold mb-2 sm:mb-3">Diverse Program Offerings</h3>
+          <p class="text-gray-600 leading-relaxed text-sm sm:text-base">Tailor your educational journey with MCNIQBUK's diverse program offerings. From business and technology to humanities and sciences, our comprehensive range of programs allows you to pursue your passions and align your studies with your career aspirations.</p>
+        </div>
+        <div class="text-center p-4 sm:p-6 hover:bg-gray-50 rounded-lg transition-colors duration-300">
+          <div class="bg-blue-600 w-12 h-12 sm:w-16 sm:h-16 rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4 transform hover:scale-110 transition-transform duration-300">
+            <svg class="h-6 w-6 sm:h-8 sm:w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+            </svg>
+          </div>
+          <h3 class="text-lg sm:text-xl font-bold mb-2 sm:mb-3">Student-Centric Approach</h3>
+          <p class="text-gray-600 leading-relaxed text-sm sm:text-base">Experience personalized support and a student-centric approach at MCNIQBUK. Our smaller class sizes facilitate meaningful interactions with faculty, creating an environment where your individual growth and success are prioritized.</p>
+        </div>
+        <div class="text-center p-4 sm:p-6 hover:bg-gray-50 rounded-lg transition-colors duration-300">
+          <div class="bg-blue-600 w-12 h-12 sm:w-16 sm:h-16 rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4 transform hover:scale-110 transition-transform duration-300">
+            <svg class="h-6 w-6 sm:h-8 sm:w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+            </svg>
+          </div>
+          <h3 class="text-lg sm:text-xl font-bold mb-2 sm:mb-3">Career Development</h3>
+          <p class="text-gray-600 leading-relaxed text-sm sm:text-base">At MCNIQBUK, we go beyond academics to focus on your professional journey. Benefit from dedicated career development services, including workshops, networking opportunities, and guidance, preparing you for a successful and fulfilling career after graduation.</p>
+        </div>
       </div>
     </section>
 

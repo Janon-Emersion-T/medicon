@@ -3,13 +3,15 @@
     <Header />
     
     <!-- Hero Section -->
-    <div class="bg-blue-600 text-white pt-40">
-      <div class="container mx-auto px-4 py-16 md:py-24">
+    <div class="bg-blue-900 text-white pt-40">
+      <div class="container mx-auto px-4 py-16 md:py-24 text-center">
         <h1 class="text-4xl md:text-5xl font-bold mb-6">Become an Approved Assessment Center</h1>
         <p class="text-xl md:text-2xl mb-8">Partner with us to deliver high-quality qualifications and transform lives through education</p>
-        <button class="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">
-          Apply Now
-        </button>
+        <a href="http://mcniqbuk.co.uk/contact">
+          <button class="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">
+            Apply Now
+          </button>
+        </a>
       </div>
     </div>
 
@@ -127,7 +129,7 @@
       </div>
     </section>
 
-    <!-- Contact Section -->
+    <!-- Contact Section 
     <section class="bg-blue-600 text-white py-16">
       <div class="container mx-auto px-4">
         <div class="max-w-4xl mx-auto text-center">
@@ -145,7 +147,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section>-->
 
     <Footer />
   </div>
