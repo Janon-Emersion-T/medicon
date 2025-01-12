@@ -10,7 +10,7 @@ class LogoutView(APIView):
     def post(self, request):
         try:
             # Get the refresh token from the request
-            refresh_token = request.data.get('refresh')
+            refresh_token = request.data.get('refresh_token')
 
             # Blacklist the refresh token to prevent it from being used again
             token = RefreshToken(refresh_token)

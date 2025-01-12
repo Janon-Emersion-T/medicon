@@ -63,6 +63,7 @@
           </div>
           <MenuItem v-slot="{ active }">
             <router-link
+              @click="handleLogout"
               :to="{ name: 'login' }"
               :class="[active ? 'bg-gray-200' : '', 'block px-4 py-2 text-sm text-gray-700']"
               >Sign out</router-link
@@ -75,6 +76,7 @@
 </template>
 
 <script>
+import LogoutButton from '@/components/layouts/LogoutButton.vue'
 import { Menu, MenuButton, MenuItems, MenuItem } from '@headlessui/vue'
 
 export default {
