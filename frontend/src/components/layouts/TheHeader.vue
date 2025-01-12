@@ -85,6 +85,7 @@ export default {
     MenuButton,
     MenuItems,
     MenuItem,
+    LogoutButton,
   },
 }
 </script>

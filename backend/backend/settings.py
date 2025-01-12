@@ -12,7 +12,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-o*ms1-dhz@vgx(mm*nfvk5bw)#2^2!vycefatw9#cpmpsp2)f%'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -141,5 +141,5 @@ DJOSER = {
 AUTH_USER_MODEL = 'accounts.User'
 
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:5173',  # Replace with your frontend's URL
+    'http://mcniqbuk.co.uk',  # Replace with your frontend's URL
 ]
